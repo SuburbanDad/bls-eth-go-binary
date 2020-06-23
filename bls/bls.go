@@ -2,7 +2,7 @@ package bls
 
 /*
 #cgo CFLAGS:-I${SRCDIR}./include -DBLS_ETH -DBLS_SWAP_G
-#cgo LDFLAGS:-lbls384_256 -lstdc++ -lm
+#cgo LDFLAGS:-lbls384_256 -lstdc++ -lm -lgmp
 #cgo ios LDFLAGS:-L${SRCDIR}/lib/ios
 #cgo android,arm64 LDFLAGS:-L${SRCDIR}/lib/android/arm64-v8a
 #cgo android,arm LDFLAGS:-L${SRCDIR}/lib/android/armeabi-v7a
